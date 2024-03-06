@@ -16,14 +16,9 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+:root body {
+  background:linear-gradient(-180deg , rgba(193,222,232,1) 0%, rgba(12,45,87,1) 100%);
+
 }
 
 @layer utilities {
